@@ -1,0 +1,7 @@
+flask
+firebase_admin
+gunicorn
+python-dotenv
+icecream
+stripe
+flask-cors

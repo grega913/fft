@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Node modules for the my_web_app, which is basically an app by itself - this way we are keeping frontend seperated from backend
+static/my_web_app/node_modules/
+
+# Webpack bundles
+static/my_web_app/dist/

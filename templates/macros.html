@@ -1,0 +1,26 @@
+{% macro display_session_data(session) %}
+<div id="session-data-container">
+    
+    <div class="session-data">
+        <h5>Session Data - User info</h5>
+        <ul>
+            <li>Aud: {{ session.user.aud }}</li>
+            <li>Auth Time: {{ session.user.auth_time }}</li>
+            <li>Email: {{ session.user.email }}</li>
+            <li>Email Verified: {{ session.user.email_verified }}</li>
+            <li>Exp: {{ session.user.exp }}</li>
+            <li>Firebase:</li>
+            <ul>
+                <li>Identities: {{ session.user.firebase.identities.email }}</li>
+                <li>Sign In Provider: {{ session.user.firebase.sign_in_provider }}</li>
+            </ul>
+            <li>Iat: {{ session.user.iat }}</li>
+            <li>Iss: {{ session.user.iss }}</li>
+            <li>Sub: {{ session.user.sub }}</li>
+            <li>Uid: {{ session.user.uid }}</li>
+            <li>User Id: {{ session.user.user_id }}</li>
+        </ul>
+    </div>
+
+</div>
+{% endmacro %}
