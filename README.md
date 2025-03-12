@@ -8,9 +8,9 @@ https://www.youtube.com/watch?v=HoRutj1z3fQ&ab_channel=AaronDunn, added Stripe f
 #### 20250311 - Separation of front end and backend.
 
 - "static" folder: When defining Flask app, we have set static folder to "static". There we created a new folder, named "my_web_app". This is basically the folder where we have all js files. We have basically created a new node.js project within this folder - for example by installing npm install firebase, so we have package.json, and node_modules folder.
-- webpack: For efficient handling of js files, we have installed webpack. Settings for webpack are in webpack.config.js -
+- webpack: For efficient handling of js files, we have installed webpack. Settings for webpack are in webpack.config.js.
 - by running "npx webpack" from "my_web_app", we are creating a couple of bundled js files which should be imported as scripts to html templates, preferrably before the </body> tag.
-- "templates" folder are not in "my_web_app", but are in "static"
+- "templates" folder are not in "my_web_app", but are in "static".
 
 #### 20250311 - Firebase Auth with Identity Platform.
 
