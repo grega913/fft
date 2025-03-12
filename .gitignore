@@ -178,3 +178,6 @@ static/my_web_app/dist/
 
 firebase_auth.json
 firebase_config.py
+
+#Google Cloud Functions
+gc_functions/
