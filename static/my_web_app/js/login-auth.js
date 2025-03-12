@@ -130,7 +130,6 @@ async function authSignUpWithGoogle() {
         // Sign in user
         const idToken = await user.getIdToken();
 
-
         await addNewUserToFirestore(user)
 
         loginUser(user, idToken);

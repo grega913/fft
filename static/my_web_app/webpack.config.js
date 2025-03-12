@@ -3,7 +3,6 @@ const path = require('path');
 module.exports = {
   entry: {
     login: './js/login-auth.js',  // Output: login.bundle.js
-    main: './js/main.js',        // Output: main.bundle.js
     firebaseConfig: './js/firebase-config.js', //output: firebaseConfig.bundle.js
     stripe: './js/stripe.js'
   },
